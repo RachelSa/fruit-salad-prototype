@@ -1,0 +1,32 @@
+{
+  "name": "fruit-salad-prototype",
+  "version": "1.0.0",
+  "description": "a game for the joy of fruit salad",
+  "main": "y",
+  "scripts": {
+    "test": "test",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RachelSa/fruit-salad-prototype.git"
+  },
+  "keywords": [
+    "game",
+    "fruit"
+  ],
+  "author": "rachelsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RachelSa/fruit-salad-prototype/issues"
+  },
+  "homepage": "https://github.com/RachelSa/fruit-salad-prototype#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "http-server": "^0.11.1",
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.5"
+  }
+}
