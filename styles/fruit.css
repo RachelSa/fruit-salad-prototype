@@ -1,0 +1,42 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img.rotating {
+  animation: rotate 60s infinite linear;
+}
+
+.icon {
+  max-height: 75px;
+  opacity: 0.3;
+}
+
+.margin-s {
+  margin: 5px;
+}
+
+.padding-s {
+  padding: 5px;
+}
+
+.margin-xxl {
+  margin: 30px;
+}
+
+.padding-xxl {
+  padding: 30px;
+}
+
+.invisi-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.icon:hover {
+  opacity: 1.0;
+}
