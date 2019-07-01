@@ -16,6 +16,18 @@ img.rotating {
   opacity: 0.3;
 }
 
+.detail-height {
+  height: 450px;
+}
+
+.med-width {
+  max-width: 350px;
+}
+
+img.med-width {
+  width: 100%;
+}
+
 .margin-s {
   margin: 5px;
 }
