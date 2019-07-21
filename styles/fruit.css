@@ -52,3 +52,11 @@ img.med-width {
 .icon:hover {
   opacity: 1.0;
 }
+
+#next-button {
+  visibility: visible;
+}
+
+#back-button {
+  visibility: hidden;
+}
