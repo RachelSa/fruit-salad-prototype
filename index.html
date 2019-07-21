@@ -7,14 +7,17 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="images/favicon/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <div id='fruit-buttons'></div>
-    <div id='selected-fruit'></div>
-    <script src='index.js'></script>
+    <div id='selected-fruit' class='detail-height'></div>
+    <button id='next-button' class='padding-s'>next ▷</button>
+    <button id='back-button' class='padding-s'>◁ back</button>
+    <script type='module' src='index.js'></script>
+    <script type='module' src='javascript/fruitButton.js'></script>
   </body>
 </html>
